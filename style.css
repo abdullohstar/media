@@ -151,3 +151,62 @@ footer {
   font-size: 24px;
  }
   }
+  @media (max-width: 420px) {
+    .imgg{
+      width: 180px;
+      height: 50px;
+    }
+    nav{
+      width: 100%;
+      justify-content: space-around;
+    }
+    .container{
+      width: 100%;
+    }
+    .rock{
+      width: 420px;
+      height: 500px;
+      margin: 0;
+    }
+    .home-text{
+      width: 100%;
+      margin-top: 60px;
+     
+      
+    }
+    .home-text h1{
+      font-size: 25px;
+      margin-left: 60px;
+     
+
+    }
+    .home-text p{
+      font-size: 18px;
+      text-align: center;
+      margin-left: 40px;
+
+    }
+    .home-text button{
+      width: 160px;
+      height: 70px;
+      font-size: 23px;
+      margin-left: 130px;
+    }
+    a{
+      font-size: 20px;
+    }
+.imgg{
+  width: 140px;
+  height: 40px;
+  margin-left: 80px;
+}
+ .navbar{
+  display: none;
+ }
+ footer img{
+  text-align: center;
+  margin-left: 100px;
+  gap: 0;
+ }
+}
+  
