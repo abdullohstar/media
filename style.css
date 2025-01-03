@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  width: 80%;
+  height: 60px;
+
+  margin-top: 30px;
+  display: flex;
+ gap: 65px;
+}
+.navbar {
+  width: 60%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  font-size: 28px;
+  text-decoration: none;
+  color: black;
+}
+section {
+  width: 82%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-text {
+  width: 630px;
+  height: 400px;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.home-text > h1 {
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.home-text span {
+  background-color: #9500ff;
+  padding: 25px;
+  color: white;
+  border-radius: 50px;
+}
+.home-text > p {
+  font-size: 29px;
+}
+.home-text > button {
+  width: 407px;
+  height: 114px;
+  border: solid #9500ff 5px;
+  border-radius: 55px;
+  font-size: 57px;
+  color: #9500ff;
+  font-weight: bold;
+  margin-left: 50px;
+  background-color: white;
+}
+footer {
+  display: flex;
+  gap: 90px;
+}
+@media (max-width: 991px) {
+  nav{
+    gap: 40px;
+
+  }
+  button{
+
+    width: 250px;
+    height: 80px;
+
+  }
+ section{
+  display: block;
+ }
+ .home-text{
+  margin-top: 100px;
+  margin-left: 100px;
+ }
+
+ footer{
+  flex-wrap: wrap;
+
+ }
+ footer img{
+  width: 80px;
+  height: 80px;
+
+ }
+
+}
+ @media (max-width: 767px) {
+  .home-text{
+    margin-left: 0;
+  }
+  nav{
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .imgg{
+    margin-left: 0;
+  }
+  .home-text > h1 {
+    font-size: 40px;
+     
+    margin-left: 100px;
+    gap: 5px;
+  }
+  .home-text button{
+    width: 230px;
+    height: 80px;
+    font-size: 30px;
+    margin-left: 200px;
+  }
+  .rock{
+    margin-right: 150px;
+  }
+  .home-text{
+    height: auto;
+  }
+  footer{
+
+  
+    display: flex;
+    
+  }
+  footer img{
+    width: 50px;
+    height: 50px;
+  }
+ .navbar a{
+  font-size: 24px;
+ }
+  }
